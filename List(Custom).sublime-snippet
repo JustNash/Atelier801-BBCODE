@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[[list][*]$1[/*][*]$2[/*][/list]$0]]></content>
+  <description>Bullet List</description>
+  <scope>text.bbcode</scope>
+</snippet>
