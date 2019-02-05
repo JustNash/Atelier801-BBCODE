@@ -2,4 +2,5 @@
   <content><![CDATA[[p=${2:1}]$1[/p]]]></content>
   <description>Paragraph [p=align]text[/p]</description>
   <scope>text.bbcode</scope>
+  <tabtrigger>p</tabtrigger>
 </snippet>
