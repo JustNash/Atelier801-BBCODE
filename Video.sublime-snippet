@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[[video]$1[/video]$0]]></content>
   <description>Video</description>
-  <scope>text.bbcode</scope>
-    <tabtrigger>video</tabtrigger>
+  <scope>keyword.control.bbcode</scope>
+    <tabTrigger>video</tabTrigger>
 </snippet>
