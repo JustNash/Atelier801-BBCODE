@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[[list]
-[*] $1
-[/list]]]></content>
-  <description>Unordered List</description>
-  <scope>text.bbcode</scope>
-  <tabTrigger>*</tabTrigger>
-</snippet>
