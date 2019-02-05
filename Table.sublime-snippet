@@ -2,4 +2,5 @@
   <content><![CDATA[[table] [row][cel]$1[/cel]$2[cel]$3[/cel][/row] [/table]]]></content>
   <description>Table</description>
   <scope>text.bbcode</scope>
+    <tabtrigger>table</tabtrigger>
 </snippet>
