@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[[code${1:=${2:ruby}}]$3[/code]$0]]></content>
+  <content><![CDATA[code${1:=${2:ruby}}]$3[/code$0]]></content>
   <description>Code (code)</description>
   <scope>text.bbcode</scope>
   <tabTrigger>code</tabTrigger>
