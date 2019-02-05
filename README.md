@@ -1,25 +1,11 @@
-# BBCode Bundle for Sublime Text
+# Atelier801 Forums Dedicated BBCode Bundle for Sublime Text
 
-This is a fork of the [TextMate BBCode Bundle][1] by [Ryan Bates][2], Michael Dippery and Grayson Manley.
+This is a fork of the [Sublime Text BBCode Syntax][1] by chipotle
 
-[1]: https://github.com/gmanley/BBCode.tmbundle
-[2]: http://www.rybud.com/
-
-## Snippet Keybindings
-
-Use `Cmd+Ctrl` on OS X and `Ctrl+Shift` on other platforms.
-
-    B    Bold
-    I    Italic
-    C    Color
-    @    Size
-    W    Wrap (in arbitrary tag)
+[1]: https://github.com/chipotle/BBCode
 
 ## Tab Triggers
 
     code      create code block
     img       create image tag
     url       create URL (link) tag
-    1         ordered list block
-    *         unordered list block
-    -         list item
