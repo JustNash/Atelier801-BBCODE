@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[[#${2:1}]$1[/#]]]></content>
+  <description>Tab [#Tab1]context[/#Tab1][#Tab2]context2[/#Tab2]</description>
+  <scope>text.bbcode</scope>
+</snippet>
