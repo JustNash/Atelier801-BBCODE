@@ -1,8 +1,10 @@
 %YAML 1.2
 ---
 # http://www.sublimetext.com/docs/3/syntax.html
-name: BBCode
+name: a801BBCode
 file_extensions:
+  - a801bbcode
+  - a801bb
   - bbcode
   - bb
 scope: text.bbcode
