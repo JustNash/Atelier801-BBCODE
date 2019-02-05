@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[[video]$1[/video]$0]]></content>
+  <description>Video</description>
+  <scope>text.bbcode</scope>
+</snippet>
