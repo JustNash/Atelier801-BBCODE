@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[[font=${2:1}]$1[/font]]]></content>
+  <description>Font</description>
+  <scope>text.bbcode</scope>
+</snippet>
