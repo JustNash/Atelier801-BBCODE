@@ -1,0 +1,5 @@
+<snippet>
+  <content><![CDATA[[spoiler=${2:1}]$1[/spoiler]]]></content>
+  <description>spoiler</description>
+  <scope>text.bbcode</scope>
+</snippet>
