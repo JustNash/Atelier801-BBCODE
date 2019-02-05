@@ -22,10 +22,10 @@ contexts:
       scope: keyword.control.conditional.bbcode
     
     - match: \b([)\b
-    - meta.brackets: punctuation.section.brackets.begin
+    - meta.brackets.punctuation.section.brackets.begin
     
     - match: \b(])\b
-    - meta.brackets: punctuation.section.brackets.end
+    - meta.brackets.punctuation.section.brackets.end
 
 
   anchors:
