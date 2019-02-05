@@ -20,6 +20,10 @@ contexts:
       scope: keyword.control.bbcode
     - match: \b(left|right|center|justify)\b
       scope: keyword.control.conditional.bbcode
+    - meta.brackets: punctuation.section.brackets.begin
+    - match: \b([)\b
+    - meta.brackets: punctuation.section.brackets.end
+    - match: \b(])\b
 
 
   anchors:
