@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[hr]]></content>
   <description>Horizontal Ruler</description>
-  <scope>text.bbcode</scope>
-  <tabtrigger>hr</tabtrigger>
+  <scope>keyword.control.bbcode</scope>
+  <tabTrigger>hr</tabTrigger>
 </snippet>
