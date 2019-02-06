@@ -21,11 +21,15 @@ contexts:
     - match: '\b(left|right|center|justify)\b'
       scope: keyword.other.bbcode
     
-    - match: \b([)\b
-    - scope: meta.generic
+    - match: '\b([)\b'
+      scope: punctuation.definition.generic.begin.bbcode
     
-    - match: \b(])\b
-    - scope: meta.generic
+    - match: '\b(])\b'
+      scope: punctuation.definition.generic.end.bbcode
+    
+    - match: '"'
+      scope: punctuation.definition.string.begin.example-c
+      push: double_quoted_string
 
 
   anchors:
