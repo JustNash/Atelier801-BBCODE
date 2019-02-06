@@ -21,10 +21,10 @@ contexts:
     - match: '\b(left|right|center|justify)\b'
       scope: keyword.other.bbcode
     
-    - match: '\b([)\b'
+    - match: '['
       scope: punctuation.definition.generic.begin.bbcode
     
-    - match: '\b(])\b'
+    - match: ']'
       scope: punctuation.definition.generic.end.bbcode
     
     - match: '"'
