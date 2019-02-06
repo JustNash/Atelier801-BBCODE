@@ -19,13 +19,13 @@ contexts:
     - match: \b(b|i|font|u|s|quote|color|size|p|hr|#|list|img|*|url|video|code|table)\b
       scope: keyword.control.bbcode
     - match: \b(left|right|center|justify)\b
-      scope: keyword.control.conditional.bbcode
+      scope: keyword.other.bbcode
     
     - match: \b([)\b
-    - scope: punctuation.section.brackets.begin
+    - scope: meta.generic
     
     - match: \b(])\b
-    - scope: punctuation.section.brackets.end
+    - scope: meta.generic
 
 
   anchors:
