@@ -16,9 +16,9 @@ contexts:
     - include: languages
     - include: anchors
     - include: general_tags
-    - match: '\b(b|i|font|u|s|quote|color|size|p|hr|#|list|img|*|url|video|code|table)\b'
+    - match: '\b()?[b|i|font|u|s|quote|color|size|p|hr|#|list|img|*|url|video|code|table]+\b'
       scope: keyword.control.bbcode
-    - match: '\b(left|right|center|justify)\b'
+    - match: '\b(left|right|center|justify)?["]+\b'
       scope: keyword.other.bbcode
     
     - match: '\['
