@@ -28,7 +28,7 @@ contexts:
       scope: punctuation.definition.generic.end.bbcode
     
     - match: '"'
-      scope: punctuation.definition.string.begin.example-c
+      scope: punctuation.definition.string.begin.bbcode
       push: double_quoted_string
 
 
@@ -71,6 +71,13 @@ contexts:
         0: meta.tag.any.bbcode
         1: meta.tag.value.bbcode
 
+  double_quoted_string:
+    - meta_scope: string.quoted.double.bbcode
+    - match: '\\.'
+      scope: constant.character.escape.bbcode
+    - match: '"'
+      scope: punctuation.definition.string.end.bbcode
+      pop: true
 
   languages:
 
