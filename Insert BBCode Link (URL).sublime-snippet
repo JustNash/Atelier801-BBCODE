@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[[url=$1]$TM_SELECTED_TEXT$2[/url]$0]]></content>
+  <content><![CDATA[url=$1]$TM_SELECTED_TEXT$2[/url$0]]></content>
   <description>Insert BBCode Link (URL)</description>
   <scope>keyword.control.bbcode</scope>
   <tabTrigger>url</tabTrigger>
