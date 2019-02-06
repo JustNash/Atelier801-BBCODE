@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[hr]]></content>
+  <content><![CDATA[hr]$1]></content>
   <description>Horizontal Ruler</description>
   <scope>keyword.control.bbcode</scope>
   <tabTrigger>hr</tabTrigger>
