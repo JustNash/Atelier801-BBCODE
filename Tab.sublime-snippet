@@ -2,5 +2,5 @@
   <content><![CDATA[[#${2:1}]$1[/#]]]></content>
   <description>Tab [#Tab1]context[/#Tab1][#Tab2]context2[/#Tab2]</description>
   <scope>keyword.control.bbcode</scope>
-    <tabTrigger>#</tabTrigger>
+    <tabTrigger>tab</tabTrigger>
 </snippet>
